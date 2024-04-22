@@ -104,5 +104,5 @@ inputs:
     description: 'Use this option to specify the Java maximum heap size for the Java process that controls the playback. For example, when you input the value as -Xmx4096m, it specifies the maximum heap size as 4GB.'
     required: false    
 runs:
-  using: 'node16'
+  using: 'node20'
   main: 'dist/index.js'
